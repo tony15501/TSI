@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  apellido_paterno: MyString
+  apellido_materno: MyString
+  sexo: MyString
+  fechavisita: 2014-02-11
+  raza: MyString
+  type: 
+
+two:
+  nombre: MyString
+  apellido_paterno: MyString
+  apellido_materno: MyString
+  sexo: MyString
+  fechavisita: 2014-02-11
+  raza: MyString
+  type: 

@@ -1,0 +1,2 @@
+class Cita < Persona
+end
