@@ -1,2 +1,0 @@
-class Paciente < Persona
-end
