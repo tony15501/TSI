@@ -11,15 +11,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140211210515) do
+ActiveRecord::Schema.define(version: 20140212035931) do
 
-  create_table "personas", force: true do |t|
-    t.string   "nombre"
-    t.string   "apellido_paterno"
-    t.string   "apellido_materno"
-    t.string   "sexo"
-    t.date     "fechavisita"
-    t.string   "raza"
+  create_table "bicicleta", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "coches", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "motocicleta", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "vehiculos", force: true do |t|
+    t.string   "modelo"
+    t.string   "marca"
+    t.string   "color"
+    t.string   "motor"
+    t.string   "plca"
     t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
